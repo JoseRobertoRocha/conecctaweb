@@ -365,11 +365,12 @@
         // Form submission
         function handleSubmit(event) {
             event.preventDefault();
-            alert('Thank you for your message! We\'ll get back to you soon.');
+            alert('Obrigado! Recebemos sua mensagem. Breve entraremos em contato!');
             event.target.reset();
         }
 
         // Initialize
         updateCoverflow();
         container.focus();
+
         startAutoplay();
